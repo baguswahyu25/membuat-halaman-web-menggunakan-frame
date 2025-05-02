@@ -1,2 +1,17 @@
-# membuat-halaman-web-menggunakan-frame
-tugas praktikum modul 7 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>koleksi farfum  </title>
+</head>
+<frameset rows="15%,*,10%">
+    <frame src="header.html" name="atas" >
+    
+    <frameset cols="20%,*,20%">
+        <frame src="C:\Users\HP\Documents\vscodeproject\modul7\tugas praktikum modul 7\FARFUM SAYA\farfumsaya.html" name="kiri ">
+        <frame src="tampilan awal.html" name="konten">
+        <frame src="C:\Users\HP\Documents\vscodeproject\modul7\tugas praktikum modul 7\FARFUM IMPIAN\farfum impian.html" name="kanan" >
+    </frameset>
+    
+    <frame src="BAGIAN BAWAH.html" name="bawah" >
+</frameset>
+</html>
